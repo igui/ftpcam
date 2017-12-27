@@ -14,7 +14,7 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 
 MAX_DIRSIZE = 40000 # 40MB dir size
-PASSIVE_PORTS = range(30000, 30512)
+PASSIVE_PORTS = range(30000, 30020+1)
 FTP_PORT = 2121
 FILES_DIR = 'files'
 ENV_CONFMAP = OrderedDict((
